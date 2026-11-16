@@ -1,0 +1,33 @@
+
+# Python virtual environment
+backend/venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+frontend/node_modules/
+
+# Build files
+frontend/dist/
+build/
+dist/
+
+# Database (ignore if locally generated)
+backend/parking_system.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
